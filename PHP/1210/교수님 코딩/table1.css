@@ -1,0 +1,23 @@
+table {
+     width: 100%;
+     border-spacing: 0.3rem
+ }
+ td, th {
+     border: 1px solid #999;
+     padding: 0.5rem;
+ }
+ th {
+     border: 1px solid #999;
+     padding: 0.5rem;
+     background: grey;
+ }
+ tbody tr:hover {
+     background: yellow;
+ }
+ 
+ .highlight {
+     background: green;
+ }
+ col:nth-child(1) {
+     background: blue; 
+ }
